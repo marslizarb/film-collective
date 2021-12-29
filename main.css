@@ -14,17 +14,21 @@ body{
 }
 
 a{
-	color: darkseagreen;
-    text-decoration: none;
+    color: seashell;
+    text-decoration: underline;
 }
 
 a:hover {
-    color: seashell;
+    color: darkseagreen;
 }
 
 nav a, footer div a {
 	margin: 0px 7px;
     color: darkseagreen;
+}
+
+nav a:hover {
+    color: seashell;
 }
 
 footer{
@@ -35,6 +39,11 @@ footer{
 
 h1 {
     font-size: 88px;
+    font-family: 'Playfair Display', serif;
+}
+
+h2 {
+    font-size: 36px;
     font-family: 'Playfair Display', serif;
 }
 
