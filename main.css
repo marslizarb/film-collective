@@ -15,7 +15,7 @@ body{
 
 a{
     color: seashell;
-    text-decoration: underline;
+    text-decoration-color: darkseagreen;
 }
 
 a:hover {
@@ -50,6 +50,7 @@ h2 {
 p, ul, nav {
     font-size: 18px;
     font-family: 'Roboto', sans-serif;
+    line-height: 42px;
 }
 
 li {
