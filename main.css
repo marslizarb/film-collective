@@ -1,20 +1,3 @@
-a{
-	color: blue;
-}
-
-a:hover {
-    color: red;
-}
-
-nav a, footer div a{
-	margin: 0px 10px;
-}
-
-footer{
-	margin-top: 40px;
-	text-align: center;
-}
-
 body{
 	font-family: Garamond, serif;
 	margin: auto;
@@ -23,22 +6,43 @@ body{
 	text-align: left;
 	background-color: white;
 	position: relative;
+    line-height: inherit;
+    font-family: 'Playfair Display', serif;
+    font-family: 'Roboto', sans-serif;
+    background-color: seagreen;
+    color: seashell;
+}
+
+a{
+	color: wheat;
+    text-decoration: none;
+}
+
+a:hover {
+    color: seashell;
+}
+
+nav a, footer div a {
+	margin: 0px 7px;
+    color: darkseagreen;
+}
+
+footer{
+	margin-top: 40px;
+	text-align: center;
+    color: darkseagreen;
 }
 
 h1 {
-    font-size: 80px;
+    font-size: 75px;
+    font-family: 'Playfair Display', serif;
 }
 
 p, ul, nav {
-    font-size: 20px;
+    font-size: 15px;
+    font-family: 'Roboto', sans-serif;
 }
 
 li {
     list-style: none;
-    line-height: 30px;
-}
-
-li:hover {
-    font-size: 22px;
-    transition: ease, .1s;
 }
